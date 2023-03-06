@@ -1,0 +1,607 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <title>Arranger Notifications | BarnasNorge.no</title>
+
+
+  <meta property="og:title" content="1">
+  <meta property="og:description" content="2">
+  <meta property="og:image" content="3">
+  <meta property="og:url" content="4">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/favicons/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicons/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/favicons/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicons/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/images/favicons/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/favicons/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/images/favicons/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/favicons/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-128.png" sizes="128x128" />
+  <!--[if IE]><link rel="shortcut icon" href="/favicon.ico"><![endif]-->
+  <meta name="application-name" content="BarnasNorge.no" />
+  <meta name="msapplication-TileColor" content="#fff" />
+  <meta name="msapplication-TileImage" content="/images/favicons/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="/images/favicons/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="/images/favicons/mstile-150x150.png" />
+  <meta name="msapplication-square310x310logo" content="/images/favicons/mstile-310x310.png" />
+  <style>body:before {
+  content: '';
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+  background-color: #fff;
+  -webkit-transition: opacity 0.25s ease-in-out, -webkit-transform 0.0001s 0.25s;
+  transition: opacity 0.25s ease-in-out, -webkit-transform 0.0001s 0.25s;
+  -o-transition: opacity 0.25s ease-in-out, transform 0.0001s 0.25s;
+  transition: opacity 0.25s ease-in-out, transform 0.0001s 0.25s;
+  transition: opacity 0.25s ease-in-out, transform 0.0001s 0.25s, -webkit-transform 0.0001s 0.25s;
+}</style>
+</head>
+
+<body class="">
+
+  <div class="app__box">
+    <div class="app__mask"></div>
+    <aside class="app__aside">
+      <a href="./" class="logo">
+        <img src="./images/logo.svg" alt="BarnasNorge.no">BarnasNorge.no
+      </a>
+
+      <nav class="nav__box app__nav">
+
+
+        <ul class="nav">
+
+          <li class="nav__item">
+            <a href="/" class="nav__link  icon-add-event">
+
+        Add Activity
+
+        
+
+      </a>
+
+          </li>
+
+          <li class="nav__item">
+            <a href="/" class="nav__link  icon-home">
+
+        Home
+
+        
+
+      </a>
+
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link  icon-calendar">
+
+        Activities
+
+        
+
+          <span class="nav__amount">2</span>
+
+        
+
+      </a>
+
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link  icon-news">
+
+        News
+
+        
+
+      </a>
+
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link  icon-doc">
+
+        Content
+
+        
+
+      </a>
+
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link  icon-megaphone">
+
+        Annouser
+
+        
+
+      </a>
+
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link  icon-users">
+
+        Users
+
+        
+
+      </a>
+
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link  icon-tool">
+
+        Service
+
+        
+
+      </a>
+
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link  icon-settings">
+
+        Settings
+
+        
+
+      </a>
+
+          </li>
+
+        </ul>
+
+
+      </nav>
+
+      <div class="copyright">© 2018 BarnasNorge.no</div>
+    </aside>
+    <div class="app">
+      <header class="app__header">
+        <div class="app__logo">
+          <a href="/" class="logo logo_mob">BarnasNorge.no</a>
+        </div>
+
+        <div class="emotion-box">Welcome back, <a href="">Peter F. Tschudi</a>, we have 2 new activities!</div>
+
+        <a href="#" class="header__link icon-world">
+
+          Open the Site
+
+         </a>
+        <a href="#" class="header__link header__link_mb icon-switch">
+          <span>Logout</span>
+        </a>
+
+        <div class="menu">
+          <a href="#" class="menu__link js-menu-link icon-menu">
+            <span>Menu</span>
+          </a>
+        </div>
+      </header>
+      <main class="app__content">
+        <div class="content__wrp content__wrp_wh">
+          <div class="filter-head">
+
+          </div>
+
+          <div class="content">
+
+
+            <div class="statistic">
+              <div class="statistic__item statistic__item_online">
+                <div class="statistic__title icon-online">
+                  Online
+                </div>
+
+                <div class="statistic__box">
+                  <div class="statistic__part statistic__part_ac">
+                    <div class="statistic__part-title">Visitors</div>
+                    <div class="statistic__num">14</div>
+                  </div>
+                  <div class="statistic__part statistic__part_list">
+                    New: 5
+                    <br>Guests: 2
+                    <br>
+                    <a href="#">Registered: 12</a> 
+                    <br>
+                  </div>
+                </div>
+              </div>
+
+              <div class="statistic__item statistic__item_received">
+                <div class="statistic__title icon-plus2">
+                  Received Activities
+                </div>
+
+                <div class="statistic__box">
+                  <div class="statistic__part statistic__part_ac">
+                    <div class="statistic__part-title">Added</div>
+                    <div class="statistic__num">2</div>
+                  </div>
+                  <div class="statistic__part statistic__part_ac">
+                    <div class="statistic__part-title">Edited</div>
+                    <div class="statistic__num">14</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="statistic__item statistic__item_awaiting">
+                <div class="statistic__title icon-email">
+                  Awaiting Emailing
+                </div>
+                <div class="statistic__info">
+                  212 New Activities
+                  <br>
+                  <b>538 Overdue</b>
+                </div>
+                <div class="statistic__btn-wrap">
+                  <a href="#" class="statistic__btn">Manage</a>
+                </div>
+              </div>
+
+              <div class="statistic__item statistic__item_web">
+                <div class="statistic__title icon-share">
+                  Web links checking
+                </div>
+                <div class="statistic__box">
+                  <div class="statistic__part statistic__part_sm">
+                    <div class="statistic__num statistic__num_sm">215</div>
+                  </div>
+                  <div class="statistic__part statistic__part_fs">
+                    Broken Activity’s home page links
+                  </div>
+                </div>
+
+                <div class="statistic__btn-wrap">
+                  <a href="#" class="statistic__btn">View</a>
+                </div>
+              </div>
+
+              <div class="statistic__item statistic__item_zip">
+                <div class="statistic__title icon-zip">
+                  Zip Codes Updating
+                </div>
+                <div class="statistic__info">
+                  Last Updated at 05-07-2018 <span>12:44</span>
+                </div>
+
+                <div class="statistic__btn-wrap">
+                  <a href="#" class="statistic__btn">Update</a>
+                </div>
+              </div>
+
+            </div>
+
+
+
+            <div class="actions">
+              <span class="actions__title">Actions</span>
+
+
+              <div class="btn__wrp ">
+                <button class="btn">
+
+                  <i class="btn__icon btn__icon_before icon-plus"></i>
+                  Add activity
+
+                </button>
+              </div>
+
+
+              <a href="#" class="actions__link icon-news">Create news</a>
+              <a href="#" class="actions__link icon-telegram">Send emails</a>
+              <a href="#" class="actions__link icon-add-user">Add User</a> 
+            </div>
+            <div class="content__hdr">Advertising</div>
+
+
+            <div class="advertising__wrap">
+
+
+              <div class="advertising">
+                <div class="advertising__status advertising__status_on">on</div>
+
+                <h3 class="advertising__title">
+
+                <a href="#">Background site Ad</a>
+
+            </h3>
+
+                <div class="advertising__date">
+                  <div class="advertising__date-title">End date</div>
+                  22-10-2018 <span class="advertising__time">11:23</span>
+                </div>
+
+                <div class="advertising__client">
+                  <div class="advertising__client-title">Client</div>
+                  Global Cycling Adventures
+                </div>
+              </div>
+
+
+
+              <div class="advertising">
+                <div class="advertising__status advertising__status_on">on</div>
+
+                <h3 class="advertising__title">
+
+                <a href="#">Right Sidebar Ad</a>
+
+            </h3>
+
+                <div class="advertising__date">
+                  <div class="advertising__date-title">End date</div>
+                  22-10-2018 <span class="advertising__time">11:23</span>
+                </div>
+
+                <div class="advertising__client">
+                  <div class="advertising__client-title">Client</div>
+                  Client with very long name and some words after
+                </div>
+              </div>
+
+
+
+              <div class="advertising">
+                <div class="advertising__status advertising__status_off">off</div>
+
+                <h3 class="advertising__title">
+
+                <a href="#">Activity Content Ad</a>
+
+            </h3>
+
+                <div class="advertising__date">
+                  <div class="advertising__date-title">End date</div>
+                  22-10-2018 <span class="advertising__time">11:23</span>
+                </div>
+
+                <div class="advertising__client">
+                  <div class="advertising__client-title">Client</div>
+                  Oslo Future Living
+                </div>
+              </div>
+
+
+
+              <div class="advertising">
+                <div class="advertising__status advertising__status_on">on</div>
+
+                <h3 class="advertising__title">
+
+                <a href="#">Bottom Block Ad</a>
+
+            </h3>
+
+                <div class="advertising__date">
+                  <div class="advertising__date-title">End date</div>
+                  22-10-2018 <span class="advertising__time">11:23</span>
+                </div>
+
+                <div class="advertising__client">
+                  <div class="advertising__client-title">Client</div>
+                  Norway Powered by Nature
+                </div>
+              </div>
+
+
+            </div>
+
+
+
+            <div class="box-list__wrap">
+              <div class="box-list__half">
+
+
+                <div class="box-list">
+                  <div class="box-list__title">
+                    <span>New activities</span>
+                    <a href="#">View all</a>
+                  </div>
+
+
+                  <div class="box-list__head">
+
+                    <div class="box-list__head-cell">
+                      Name
+                    </div>
+
+                    <div class="box-list__head-cell">
+                      Created
+                    </div>
+
+                  </div>
+
+
+
+                  <div class="box-list__item">
+
+
+                    <div class="box-list__item-name">Norsk Trikotasjemuseum - lærerik indu Norsk Trikotasjemuseum - lærerik indu Trikotasjemuseum - lærerik indu</div>
+
+
+
+
+                    <div class="box-list__item-date">
+                      22-10-2018&nbsp;
+                      <div class="box-list__item-time">11:23</div>
+                    </div>
+                  </div>
+
+                  <div class="box-list__item">
+
+
+                    <div class="box-list__item-name">Mjølfjell Fjellstove friluftsbad</div>
+
+
+
+
+                    <div class="box-list__item-date">
+                      22-10-2018&nbsp;
+                      <div class="box-list__item-time">11:23</div>
+                    </div>
+                  </div>
+
+                  <div class="box-list__item">
+
+
+                    <div class="box-list__item-name">Babysang og BaBy-vandringer på og me</div>
+
+
+
+
+                    <div class="box-list__item-date">
+                      22-10-2018&nbsp;
+                      <div class="box-list__item-time">11:23</div>
+                    </div>
+                  </div>
+
+                  <div class="box-list__item">
+
+
+                    <div class="box-list__item-name">Completely Overloaded Form by Data:</div>
+
+
+
+
+                    <div class="box-list__item-date">
+                      22-10-2018&nbsp;
+                      <div class="box-list__item-time">11:23</div>
+                    </div>
+                  </div>
+
+                </div>
+
+
+              </div>
+              <div class="box-list__half">
+
+
+                <div class="box-list">
+                  <div class="box-list__title">
+                    <span>New users</span>
+                    <a href="#">View all</a>
+                  </div>
+
+
+                  <div class="box-list__head">
+
+                    <div class="box-list__head-cell">
+                      Name
+                    </div>
+
+                    <div class="box-list__head-cell">
+                      Registered
+                    </div>
+
+                  </div>
+
+
+
+                  <div class="box-list__item">
+
+
+
+
+                    <div class="box-list__author">
+                      <div class="box-list__author-name">Henning Amundsen</div>
+                      <div class="box-list__author-email">hamundsen@broadpark.no</div>
+                    </div>
+
+
+                    <div class="box-list__item-date">
+                      22-10-2018&nbsp;
+                      <div class="box-list__item-time">11:23</div>
+                    </div>
+                  </div>
+
+                  <div class="box-list__item">
+
+
+
+
+                    <div class="box-list__author">
+                      <div class="box-list__author-name">Reidar Kristoffersen</div>
+                      <div class="box-list__author-email">djgejl@gmail.com</div>
+                    </div>
+
+
+                    <div class="box-list__item-date">
+                      22-10-2018&nbsp;
+                      <div class="box-list__item-time">11:23</div>
+                    </div>
+                  </div>
+
+                  <div class="box-list__item">
+
+
+
+
+                    <div class="box-list__author">
+                      <div class="box-list__author-name">Michael Prozorov</div>
+                      <div class="box-list__author-email">michael.prozorov@itrexgroup.com</div>
+                    </div>
+
+
+                    <div class="box-list__item-date">
+                      22-10-2018&nbsp;
+                      <div class="box-list__item-time">11:23</div>
+                    </div>
+                  </div>
+
+                  <div class="box-list__item">
+
+
+
+
+                    <div class="box-list__author">
+                      <div class="box-list__author-name">Bendik Kværnø</div>
+                      <div class="box-list__author-email">bendik.kvarno@icloud.com</div>
+                    </div>
+
+
+                    <div class="box-list__item-date">
+                      22-10-2018&nbsp;
+                      <div class="box-list__item-time">11:23</div>
+                    </div>
+                  </div>
+
+                </div>
+
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
